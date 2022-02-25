@@ -1,0 +1,68 @@
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Coversor de moeda</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container-title">
+		<h1>Conversor de moedas</h1>
+	</div><!--container-title-->
+
+	<div class="container-header">
+		<div class="container-in">
+			<p>Converter <b>de</b></p>
+
+			<select>
+				<option>R$ - Real Brasileiro</option>
+			</select>
+		</div><!--container-in-->
+
+		<div class="container-for">
+			<p>Converter <b>para</b></p>
+
+			<select id="select-moedas">
+				<option>$ - Dólar Americano</option>
+				<option>€ - Euro</option>
+				<option>Bitcoin</option>
+			</select>
+		</div><!--container-for-->
+
+		<div class="container-value">
+			<p>Valor</p>
+			<input type="number" id="valor" placeholder="R$">
+		</div><!--container-value-->
+
+		<div class="container-convert">
+			<input type="submit" id="botao" value="Converter" id="convert">
+		</div><!--container-convert-->
+
+		<div class="container-required">
+			<div class="container-img1">
+				<img src="./image/band_br.png">
+				<p class="paragrafo">Real</p>
+				<p id="texto-real">R$ 10.000,00</p>
+			</div><!--container-img1-->
+
+			<div class="container-vector">
+				<img src="./image/vector.png">
+			</div><!--container-vector-->
+
+			<div class="container-img2">
+				<img id="bandeira-moeda" src="./image/band_eua.png">
+				<p class="paragrafo" id="texto-moedas">Dólar Americano</p>
+				<p id="input-moedas">$ 2.000,00</p>
+			</div><!--container-img2-->
+		</div><!--container-required-->
+	</div><!--container-header-->
+
+</body>
+
+	<script src="script.js"></script>
+
+</html>

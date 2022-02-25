@@ -1,0 +1,138 @@
+*{
+	margin:0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-title{
+	width: 375px;
+	height: 66px;
+	left: 0px;
+	top: 0px;
+	background: #9657A5;
+	margin-top: 70px;
+}
+
+.container-title h1{
+	color: #F4F4F4;
+	font-size: 24px;
+	padding-top: 19px;
+	text-align: center;
+}
+
+.container-header{
+	background: #E5E5E5;
+	width: 375px;
+	padding: 24px;
+}
+
+.container-in p{
+	color: #777777;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+
+.container-in select{
+	width: 327px;
+	height: 48px;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	border-radius: 4px;
+	color: #555555;
+	font-size: 16px;
+	padding-left: 16px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	margin-bottom: 23px;
+	appearance: none;
+}
+
+.container-for p{
+	color: #777777;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+
+.container-for select{
+	width: 327px;
+	height: 48px;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	border-radius: 4px;
+	color: #555555;
+	font-size: 16px;
+	padding-left: 16px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	margin-bottom: 23px;
+	appearance: none;
+}
+
+.container-value p{
+	color: #777777;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+
+.container-value input{
+	width: 327px;
+	height: 48px;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	border-radius: 4px;
+	color: #555555;
+	font-size: 16px;
+	padding-left: 16px;
+	font-weight: bold;
+	outline: none;
+	margin-bottom: 23px;
+}
+
+.container-convert input{
+	width: 327px;
+	height: 48px;
+	background: #CDD728;
+	border-radius: 25px;
+	color: #F4F4F4;
+	font-size: 18px;
+	border: none;
+	margin-bottom: 23px;
+	cursor: pointer;
+}
+
+.container-convert input:hover{
+	opacity: 0.8;
+}
+
+.container-required{
+	border: 1px solid #BBBBBB;
+	border-radius: 4px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#texto-real , #input-moedas{
+	font-weight: bold;
+}
+
+.container-img1{
+	text-align: center;
+}
+
+.container-vector{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.container-img2{
+	text-align: center;
+}
+
+.paragrafo{
+	color: #777777;
+	font-size: 14px;
+}
